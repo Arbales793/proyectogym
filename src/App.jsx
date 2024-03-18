@@ -1,11 +1,17 @@
 import './App.css'
-import ProductoCard from './componentes/ProductoCard/ProductoCard'
+import FormularioLogin from './componentes/FormularioLogin/FormularioLogin'
+import Header from './componentes/Header/Header'
+import Footer from './componentes/Footer/Footer'
 
 function App() {
 
   return (
     <>
-      <ProductoCard/>
+      <div className="app">
+        <FormularioLogin/>
+        <Footer/>
+        <Header/>
+      </div>
     </>
   )
 }

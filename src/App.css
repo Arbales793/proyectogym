@@ -1,0 +1,9 @@
+/* App.css */
+.app {
+    background-image: url('https://w0.peakpx.com/wallpaper/519/1022/HD-wallpaper-gym-dumbbells-old-dumbbell-workout.jpg'); /* Ruta relativa a la imagen*/
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Ajusta otros estilos según tus preferencias*/
+  }
+  
