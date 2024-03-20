@@ -2,9 +2,9 @@ import React, { useState } from 'react'
 import './FormularioLogin.css'
 
 const FormularioLogin = () => {
-    const [username, setUsername] = useState('');
-    const [password, setPassword] = useState('');
-    const [error, setError] = useState('');
+    const [username, setUsername] = useState('')
+    const [password, setPassword] = useState('')
+    const [error, setError] = useState('')
   
     const handleLogin = (e) => {
       e.preventDefault();
@@ -16,13 +16,17 @@ const FormularioLogin = () => {
       // Validación de longitud de contraseña
       if (password.length < 6) {
         setError('La contraseña debe tener al menos 6 caracteres.');
-        return;
+        return
       }
-      // Aquí puedes agregar más validaciones según tus necesidades
       // Si todo está bien, envía el formulario
-      console.log('Usuario:', username);
-      console.log('Contraseña:', password);
+      console.log('Usuario:', username)
+      console.log('Contraseña:', password)
+
+      setUsername("")
+      setPassword("")
     };
+
+    
   
     return (
       <div className='FormularioLogin'>
@@ -41,7 +45,7 @@ const FormularioLogin = () => {
             onChange={(e) => setPassword(e.target.value)}
           />
           <button type="submit">Ingresar</button>
-          {error && <p style={{ color: 'red' }}>{error}</p>}
+          {error && <p style={{ color: 'green' }}>{error}</p>}
         </form>
       </div>
     );
