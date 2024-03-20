@@ -1,9 +1,16 @@
 /* App.css */
 .app {
-    background-image: url('https://w0.peakpx.com/wallpaper/519/1022/HD-wallpaper-gym-dumbbells-old-dumbbell-workout.jpg'); /* Ruta relativa a la imagen*/
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    /* Ajusta otros estilos según tus preferencias*/
-  }
-  
+  min-height: 100vh;
+  max-width: 100%;
+  background-image: url('https://w0.peakpx.com/wallpaper/519/1022/HD-wallpaper-gym-dumbbells-old-dumbbell-workout.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+/* Estilos para pantallas pequeñas (hasta 600px) */
+@media screen and (max-width: 600px) {
+  /* Aplica estilos específicos para dispositivos móviles */
+}

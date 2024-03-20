@@ -8,7 +8,7 @@
 }
 
 .logo img {
-    width: 30px;
+    width: 5vw;
     height: auto;
     margin-right: 10px;
 }
@@ -26,3 +26,9 @@
     text-decoration: none;
     color: #fff;
 }
+
+/* Estilos para pantallas pequeñas (hasta 600px) */
+@media screen and (max-width: 600px) {
+    /* Aplica estilos específicos para dispositivos móviles */
+  }
+  

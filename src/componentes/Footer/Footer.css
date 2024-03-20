@@ -1,3 +1,25 @@
-.footer {
-    background-color: grey;
+footer {
+  background-color: #808080;
+  padding: 20px; /* Añade espaciado interno para que los enlaces no estén pegados al borde */
+  max-height: auto;
+  min-height: 10vh;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white; /* Color del texto del footer */
+  padding: 10; /* Espaciado interno del footer */
+  padding-bottom: 0%;
 }
+
+/* Estilos para los enlaces */
+footer a {
+  color: #ffffff; /* Color del texto */
+  text-decoration: none; /* Quita el subrayado de los enlaces */
+  margin-right: 20px; /* Espaciado entre los enlaces */
+}
+
+/* Estilos para pantallas pequeñas (hasta 600px) */
+@media screen and (max-width: 600px) {
+    /* Aplica estilos específicos para dispositivos móviles */
+  }
+  
