@@ -1,25 +1,32 @@
 footer {
   background-color: #808080;
   padding: 20px; /* Añade espaciado interno para que los enlaces no estén pegados al borde */
-  max-height: auto;
-  min-height: 10vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   bottom: 0;
-  width: 100%;
-  color: white; /* Color del texto del footer */
-  padding: 10; /* Espaciado interno del footer */
-  padding-bottom: 0%;
+  width: 97%;
+  
 }
 
 /* Estilos para los enlaces */
 footer a {
-  color: #ffffff; /* Color del texto */
-  text-decoration: none; /* Quita el subrayado de los enlaces */
+  color: #ffffff;
+  text-decoration: none;
   margin-right: 20px; /* Espaciado entre los enlaces */
+}
+
+/* Añade espacio entre los enlaces */
+footer a:not(:last-child) {
+  margin-right: 40px; /* Ajusta el espaciado según tus preferencias */
 }
 
 /* Estilos para pantallas pequeñas (hasta 600px) */
 @media screen and (max-width: 600px) {
-    /* Aplica estilos específicos para dispositivos móviles */
+  /* Aplica estilos específicos para dispositivos móviles */
+  .linksRedes {
+    margin: 0 5px; /* Ajusta el espaciado en pantallas pequeñas */
   }
-  
+}

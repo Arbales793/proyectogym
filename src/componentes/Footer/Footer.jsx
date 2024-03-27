@@ -7,14 +7,14 @@ const Footer = () => {
     <footer>
       {/* Contenido del footer */}
       <div>
-        <a href="https://facebook.com/tu_perfil" target="_blank" rel="noopener noreferrer">
-          <FaFacebook /> Facebook
+        <a className="linksRedes" href="https://facebook.com/tu_perfil" target="_blank" rel="noopener noreferrer">
+          <FaFacebook />
         </a>
-        <a href="https://instagram.com/tu_perfil" target="_blank" rel="noopener noreferrer">
-          <FaInstagram /> Instagram
+        <a className="linksRedes" href="https://instagram.com/tu_perfil" target="_blank" rel="noopener noreferrer">
+          <FaInstagram />
         </a>
-        <a href="https://wa.me/tunumero" target="_blank" rel="noopener noreferrer">
-          <FaWhatsapp /> WhatsApp
+        <a className="linksRedes" href="https://wa.me/tunumero" target="_blank" rel="noopener noreferrer">
+          <FaWhatsapp />
         </a>
       </div>
     </footer>

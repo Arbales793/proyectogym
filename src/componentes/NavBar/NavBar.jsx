@@ -6,7 +6,7 @@ function NavBar() {
   return (
     <nav className="navbar">
       <div className="logo">
-      <img src="https://cdn-icons-png.freepik.com/256/12242/12242421.png?ga=GA1.1.358558207.1710877912&" alt="Logo" />
+      <img src="https://cdn-icons-png.freepik.com/256/12242/12242421.png?ga=GA1.1.358558207.1710877912&" alt="Logo"/>
       </div>
       <ul className="nav-links">
         <li>
